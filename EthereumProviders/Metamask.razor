@@ -1,0 +1,13 @@
+﻿@if (Available && Account == null)
+{
+    <button @onclick="EnableProviderAndGetAddress">Connect to metamask</button>
+
+}
+else if (Available)
+{
+    <button disabled>Logout</button>
+}
+else
+{
+    <button disabled>Install Metamask</button>
+}
