@@ -20,8 +20,7 @@ namespace EthereumProviders
         private EthereumProviderRequestInterceptor _ethereumProviderRequestInterceptor;
         protected override async Task OnInitializedAsync()
         {
-            var module = await _jsRuntime.InvokeAsync<IJSObjectReference>("import", "/_content/EthereumProviders/EthereumProvider.js");
-            _ethereumProviderJSInterop = new EthereumProviderJSInterop(_jsRuntime, module);
+            _ethereumProviderJSInterop = new EthereumProviderJSInterop(_jsRuntime);
             _ethereumProviderRequestInterceptor = new EthereumProviderRequestInterceptor(_ethereumProviderJSInterop, this);
             Available = await IsProviderInstalled();
         }

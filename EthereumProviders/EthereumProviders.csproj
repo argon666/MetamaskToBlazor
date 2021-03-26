@@ -19,7 +19,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\EthereumProvider.js" />
+    <None Include="wwwroot\EthereumProvider.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

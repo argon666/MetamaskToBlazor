@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApp", "DemoApp\DemoApp.csproj", "{67540779-0DBD-40A0-B802-03B20E6FA61E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoApp", "DemoApp\DemoApp.csproj", "{67540779-0DBD-40A0-B802-03B20E6FA61E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EthereumProviders", "EthereumProviders\EthereumProviders.csproj", "{26A52C2B-A6D1-4DE7-9A7F-FE3D484527F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{67540779-0DBD-40A0-B802-03B20E6FA61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67540779-0DBD-40A0-B802-03B20E6FA61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67540779-0DBD-40A0-B802-03B20E6FA61E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A52C2B-A6D1-4DE7-9A7F-FE3D484527F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A52C2B-A6D1-4DE7-9A7F-FE3D484527F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A52C2B-A6D1-4DE7-9A7F-FE3D484527F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A52C2B-A6D1-4DE7-9A7F-FE3D484527F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

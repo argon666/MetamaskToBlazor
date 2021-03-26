@@ -13,11 +13,9 @@ namespace EthereumProviders
     {
         public IJSRuntime _jsRuntime { get; set; }
 
-        private IJSObjectReference _jsModule;
-        public EthereumProviderJSInterop(IJSRuntime jsRuntime, IJSObjectReference jsModule)
+        public EthereumProviderJSInterop(IJSRuntime jsRuntime)
         {
             _jsRuntime = jsRuntime;
-            _jsModule = jsModule;
         }
         public async ValueTask<bool> IsEthereumProviderInstaled()
         {
